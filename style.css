@@ -56,6 +56,7 @@ p{
     background-size: 100%;
     height: 400px;
     padding-top: 50px;
+    clear: both;
 }
 .latest-work h2{
     text-align: center;
@@ -63,6 +64,9 @@ p{
 }
 .single-latest-work{
     margin:0 10%;
+}
+.single-latest-work img:hover{
+    box-shadow: 5px 5px 30px;
 }
 .single-latest-work img{
     width: 30%;
